@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.20)
+project(VPD_Lab2_LANGUAGES_C)
+
+add_executable(vpd_lab2_multifile 
+    main_multifile.c 
+    device.c 
+    timer.c
+)
+
+target_compile_options(vpd_lab2_multifile PRIVATE -Wall -Wextra -Wpedantic)

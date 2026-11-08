@@ -1,0 +1,1 @@
+/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/vpd_lab2_multifile.dir/main_multifile.c.o CMakeFiles/vpd_lab2_multifile.dir/device.c.o CMakeFiles/vpd_lab2_multifile.dir/timer.c.o -o vpd_lab2_multifile
